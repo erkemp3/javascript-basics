@@ -1,25 +1,30 @@
-const sayHello = string => {
-  // your code here
+const sayHello = (a) => {
+  return("Hello, " + a + "!");
 };
 
-const uppercase = string => {
-  // your code here
+const uppercase = (a) => {
+  let str = a.toUpperCase();
+  return str;
 };
 
-const lowercase = string => {
-  // your code here
+const lowercase = (a) => {
+  let str = a.toLowerCase();
+  return str;
 };
 
-const countCharacters = string => {
-  // your code here
+const countCharacters = (a) => {
+ let strLength = a.length;
+ return strLength;
 };
 
-const firstCharacter = string => {
-  // your code here
+const firstCharacter = (a) => {
+  let firstChar = a.charAt(0);
+  return firstChar;
 };
 
-const firstCharacters = (string, n) => {
-  // your code here
+const firstCharacters = (a, b) => {
+  let firstChars = a.substring(0 , b);
+  return firstChars;
 };
 
 module.exports = {
